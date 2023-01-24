@@ -1,0 +1,50 @@
+#nav-container{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: blue;
+  
+}
+body{
+    display: flex;
+     flex-direction: column;
+    justify-content: center; 
+    margin: 0;
+    align-items: center;
+    background: whitesmoke;
+    font-family:sans-serif;
+    margin-bottom: 30px;
+}
+#logo-container{
+    margin: 25px;
+    font-size: 35px;
+    font-weight: 900px;
+    color: white;
+
+}
+#click{
+    border: 1px navy solid;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 30px;
+    height: 30px;
+    width:250px;
+    font-size: 15px;
+    background: navy;
+    color: white;
+}
+span{
+    color:rgb(255, 240, 72);
+}
+#resultss{
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 200px;
+    width: 350px;
+    padding: 3px;
+}
+.image{
+    height: 200px;
+    width: 350px; 
+    object-fit: cover;
+}
